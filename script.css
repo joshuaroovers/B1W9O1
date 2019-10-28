@@ -1,7 +1,10 @@
+body{
+    margin: 0px;
+}
 .gridcontainer{
+    margin-left: 1px;
     display: inline-grid;
-    width: 1100px;
-    grid-template-columns: auto;
+    grid-template-columns: 260px 333px 332px 333px 260px;
     grid-template-rows: auto;
 }
 
@@ -10,16 +13,78 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
+
 .griditemlinkbar{
+    background-color: #222931;
+    padding-bottom: 40px;
+    padding-right: 850px;
+    padding-left: 100px;
+    padding-top: 25px;
+    
+    margin-bottom: -25px;  /*als dit niet goed is; opplossing: buiten grid net als de puzzel met absolute*/
+
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 3;  
 }
+
 .griditemmainimg{
+    
+    z-index: -1;
+    
     grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.griditemimgX3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.griditemimg3-1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.griditemimg3-2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.griditemimg3-3{
+    grid-column-start: 4;
     grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.griditemyellowbox{
+    width: 1488;
+    height: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    background-color: #ffe718;
+
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.griditemimgwithboxes{
+    margin-left: 15px;
+    margin-right: 15px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
 }
