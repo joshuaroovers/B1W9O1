@@ -132,20 +132,22 @@ body{
     grid-row-end: 9;
 }
 
-.griditemfooter{
+.griditemblackbar{
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 9;
     grid-row-end: 10;
+
     width: auto;
     height: 50px;
     background-color: #222931;
 }
-.griditemtekstfooter{
+.griditemblackbartekst{
     color: white;
     font-size: 12px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 17px;
+
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 9;
