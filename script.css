@@ -61,7 +61,7 @@ span{
 }
 .sublinksoverons:hover{
     background-color: #ffe718;
-    //aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    ////////////////////////////////////////////
     
 }
 
@@ -248,7 +248,7 @@ span{
     margin-bottom: 50px;
 }
 .footertekst{
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 .gridtemfootertekst1{
     grid-column-start: 2;
