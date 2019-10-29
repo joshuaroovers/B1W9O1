@@ -27,10 +27,8 @@ body{
 
 .griditemlinkbar{
     background-color: #222931;
-    padding-bottom: 40px;
-    padding-right: 850px;
-    padding-left: 100px;
-    padding-top: 25px;
+    width:950px;
+    height: 65px;
     
     margin-bottom: -25px;  /*als dit niet goed is; opplossing: buiten grid net als de puzzel met absolute*/
 
@@ -38,6 +36,28 @@ body{
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;  
+}
+.linkbarlinks{
+    padding: 25px;
+    font-size: 12px;
+    color: white;
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+}
+span{
+    padding-top: 25px;
+    padding-bottom: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+.linkbaroverons:hover{
+    background-color: #ffe718;
+    color: white;
 }
 
 
@@ -52,9 +72,49 @@ body{
 }
 
 .imgX3{
+    z-index: -1;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.imgtekstX3{
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 300px;
+    height: 120px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0)
+}
+.imgtekstX3:hover{
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 300px;
+    height: 120px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8)
+}
+.imgtekst3-1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.imgtekst3-2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.imgtekst3-3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
 .griditemimg3-1{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -105,6 +165,10 @@ body{
     width: 200px;
     height: 50px;
     background-color: white;
+}
+.ribbonbutton:hover{
+    background-color: black;
+    color: white;
 }
 .ribbonbuttontekst{
     margin-left: 30%;
