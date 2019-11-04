@@ -75,23 +75,22 @@ ul{
     font-weight: 500;
 }
 li{
-    margin: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-li.tempclass{/**/
+    margin: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 30;
+  }
+li:hover{
     position: block;
     background-color: #ffe718;
     color: white;
-    margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 15px;
     padding-right: 10px;
-    width: 130px;
-    height: 30px;
 }
-.linkbaroverons ul{/**/
+.linkbaroverons:hover ul{
     background-color: #222931;
     color: white;
     display:unset;
@@ -111,6 +110,30 @@ li.tempclass{/**/
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
+}
+
+
+
+.dienstenbc{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 40px
+}
+.dienstentitel{
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 95px;
+}
+.dienstentekst{
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+.dienstenpos{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin-left: 300px;
 }
 
 .imgX3{
