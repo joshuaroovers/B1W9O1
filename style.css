@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 a{
-    color: white;
+    color: unset;
     text-decoration: none;
 }
 .fontnormaltekst{
@@ -89,12 +89,12 @@ li:hover{
     padding-left: 15px;
     padding-right: 10px;
 }
-.linkbaroverons:hover ul{
+.linkbarhover:hover ul{
     background-color: #222931;
     color: white;
     display: unset;
 }
-.linkbaroverons:hover{
+.linkbarhover:hover{
     background-color: #ffe718;
     color: white;
     display:unset;
@@ -110,7 +110,6 @@ li:hover{
     grid-row-start: 3;
     grid-row-end: 4;
 }
-
 
 
 .dienstenbc{
@@ -134,25 +133,54 @@ li:hover{
     grid-row-end: 5;
     margin-left: 300px;
 }
-.highl1, .highl2, .highl3{
+
+.highl1{
     color: #ffe718;
 }
-.expand1, .expand2, .expand3{
+.highl2{
+    color: #ffe718;
+}
+.highl3{
+    color: #ffe718;
+}
+.tooltipfont{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+}
+.tooltip1{
     display: none;
+    width: 170px;
     background-color: #aeb6be;
     padding: 10px;
+    margin-left: -82px;
+    margin-top: 20px;
 }
-.highl1:hover .expand1{
-    display: block;
-    color: red;
+.tooltip2{
+    display: none;
+    background-color: #aeb6be;
+    width: 170px;
+    margin-left: -48px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.tooltip3{
+    display: none;
+    background-color: #aeb6be;
+    width: 170px;
+    margin-left: -82px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.highl1:hover .tooltip1{
+    display:unset;
 }   
-.highl2:hover .expand2{
-    display: block;
-    color: red;
+.highl2:hover .tooltip2{
+    display: unset;
 }
-.highl3:hover .expand3{
-    display: block;
-    color: red;
+.highl3:hover .tooltip3{
+    display: unset;
 }
 
 .imgX3{
